@@ -1,4 +1,4 @@
-package yddate
+package date
 
 import (
 	"time"

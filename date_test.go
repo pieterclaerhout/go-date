@@ -1,11 +1,11 @@
-package yddate_test
+package date_test
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pieterclaerhout/go-yddate"
+	"github.com/pieterclaerhout/go-date"
 )
 
 func Test_UnixRoundToHour(t *testing.T) {
@@ -27,7 +27,7 @@ func Test_UnixRoundToHour(t *testing.T) {
 
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {
-			actual := yddate.UnixRoundToHour(tc.input)
+			actual := date.UnixRoundToHour(tc.input)
 			assert.Equal(t, tc.expected, actual)
 		})
 	}

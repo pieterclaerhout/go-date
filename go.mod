@@ -1,4 +1,4 @@
-module github.com/pieterclaerhout/go-yddate
+module github.com/pieterclaerhout/go-date
 
 go 1.13
 
