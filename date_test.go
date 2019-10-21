@@ -8,7 +8,7 @@ import (
 	"github.com/pieterclaerhout/go-date"
 )
 
-func Test_UnixRoundToHour(t *testing.T) {
+func TestUnixRoundToHour(t *testing.T) {
 
 	type test struct {
 		name     string
